@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: oliver_landing
+    database: landonleishman
+    schema: oliver_dw_source
+    tables:
+      - name: store
+      - name: product
+      - name: employee
+      - name: customer
+      - name: orders 
+      - name: orderline 
+#### these are tables already there, not the ones we're creating
